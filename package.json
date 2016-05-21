@@ -1,0 +1,27 @@
+{
+    "name": "hyperlapse",
+    "version": "0.1.0",
+    "description": "",
+    "main": "entry.js",
+    "scripts": {
+        "start": "gulp"
+    },
+    "author": "samelie",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "devDependencies": {
+       
+    },
+    "dependencies": {
+        "jquery": "2.1.4",
+        "lodash": "*",
+        "dat-gui": "*",
+        "rimraf": "*",
+        "bluebird": "*",
+        "event-emitter":"*",
+        "gsvpano":"*"
+    }
+}

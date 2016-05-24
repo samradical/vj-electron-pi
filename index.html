@@ -14,7 +14,12 @@
     <div id="app">
     <div id="three"></div>
     <script type="text/javascript">var SERVER_BASE = "http://0.0.0.0:9999/"</script>
-    <script src="bundle.js"></script>
+    <script>
+        require('babel-register');
+        require('./server/main')
+        require('./main')
+
+    </script>
 </body>
 
 </html>

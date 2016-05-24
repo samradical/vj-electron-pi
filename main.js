@@ -6,6 +6,7 @@ import Midi from './vj/midi/midi';
 const MOON_P = "PLBm5UHsvUTFoHiOgZl8Ycn7Y3XySDSXuV";
 const nineties = "PLRQ2jIXShfkZnWUXZj1Auc30pX_d4M6j7";
 const nineties2 = "PLRQ2jIXShfkZ1EI9plH-0v8r5XqtuJSqJ";
+const funky = "PLBm5UHsvUTFrU0IILE_eeYk3kV73KDHsp";
 const ninetiesevents2 = "PLRQ2jIXShfkY86JFB8kScjCKS3SVVoCJ6";
 
 ControlPerameters.time = Midi.map[5]
@@ -64,7 +65,7 @@ const VJ = new VJManager(document.getElementById('app'), {
     autoUpdate: false,
     mediaSources: [{
         index: 0,
-        playlists: [nineties2],
+        playlists: [funky],
         shufflePlaylist: true,
         maxVideoTime: 15,
         quality: {

@@ -73,7 +73,7 @@ const VJ = new VJManager(document.getElementById('app'), {
         },
         rewindable: true,
         verbose: true
-    }, {
+    }/*, {
         index: 1,
         playlists: [ninetiesevents2],
         shufflePlaylist: true,
@@ -85,7 +85,7 @@ const VJ = new VJManager(document.getElementById('app'), {
         },
         rewindable: true,
         verbose: false
-    }]
+    }*/]
 });
 
 function _update() {

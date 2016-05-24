@@ -4,7 +4,7 @@ import ControlPerameters from './vj/vj-control-perameters';
 import Midi from './vj/midi/midi';
 
 const MOON_P = "PLBm5UHsvUTFoHiOgZl8Ycn7Y3XySDSXuV";
-
+const nineties = "PLRQ2jIXShfkZnWUXZj1Auc30pX_d4M6j7";
 const nineties2 = "PLRQ2jIXShfkZ1EI9plH-0v8r5XqtuJSqJ";
 const ninetiesevents2 = "PLRQ2jIXShfkY86JFB8kScjCKS3SVVoCJ6";
 
@@ -64,7 +64,7 @@ const VJ = new VJManager(document.getElementById('app'), {
     autoUpdate: false,
     mediaSources: [{
         index: 0,
-        playlists: [nineties2],
+        playlists: [nineties],
         shufflePlaylist: true,
         maxVideoTime: 15,
         quality: {

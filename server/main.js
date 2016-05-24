@@ -49,5 +49,7 @@ app.get('/', function(req, res) {
     res.status(200).send('Hello, world SAM!');
 });
 
+//heapdump.writeSnapshot('/var/local/' + Date.now() + '.heapsnapshot');
+
 
 module.exports = app;

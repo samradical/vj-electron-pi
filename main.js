@@ -64,7 +64,7 @@ const VJ = new VJManager(document.getElementById('app'), {
     autoUpdate: false,
     mediaSources: [{
         index: 0,
-        playlists: [nineties],
+        playlists: [nineties2],
         shufflePlaylist: true,
         maxVideoTime: 15,
         quality: {
